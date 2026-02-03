@@ -1,0 +1,99 @@
+body {
+    Display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+}
+
+h1 {
+    size: 120%;
+    color:#4C4A59;
+    Display: flex;
+    align-items: center;
+}
+
+h2 {
+    size:110%;
+    color:#1B7F7A;
+    Display: flex;
+    Align-items: left;
+}
+
+Article {
+    background-color: #4caba6;
+    width: 70%;
+    padding: 1em;
+    border-radius: 2%;
+}
+
+aside {
+    Display: flex;
+    background-color:#4CABA6;
+    margin: 10px;
+    padding: 10px;
+}
+
+header {
+    width: 100%;
+}
+
+ul {
+   Display: flex;
+   width: 100%;
+   justify-content: space-evenly;
+   flex-direction: row;
+   font-size: 100%; 
+   list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    color: #1B7F7A;
+}
+
+a:hover {
+    color: #4CABA6;
+}
+
+a:active {
+    color:#4C4A59;
+}
+
+a:visited {
+    color: #0897B4;
+}
+
+footer {
+    Display: flex;
+    align-items: center;
+    color: #4C4A59;
+    font-size: 100%;
+    margin: 10px;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+nav {
+    background-color: rgb(209, 209, 209);
+    width: 100%;
+    Display: flex;
+}
+
+.spurImage {
+    Display: flex;
+    margin: 10px;
+}
+
+.plinthImg {
+    Display: flex;
+    margin: 10px;
+}
+
+.articleAside {
+    width: 100%;
+    Display: flex;
+    Justify-content: center;
+}
