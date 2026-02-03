@@ -24,7 +24,14 @@ Article {
     background-color: #4caba6;
     width: 70%;
     padding: 1em;
-    border-radius: 2%
+    border-radius: 2%;
+}
+
+aside {
+    Display: flex;
+    background-color:#4CABA6;
+    margin: 10px;
+    padding: 10px;
 }
 
 header {
@@ -83,4 +90,10 @@ nav {
 .plinthImg {
     Display: flex;
     margin: 10px;
+}
+
+.articleAside {
+    width: 100%;
+    Display: flex;
+    Justify-content: center;
 }
